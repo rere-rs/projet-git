@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void dessiner_carre(int i) {
+  int i = 1;
+}
+
+void effacer_dessin() {
+  printf("Dessin effacé");
+}
+
+void dessiner_rectangle(int j) {
+  int j = 1;
+}
+
+int main(void) {
+  dessiner_carre(i);
+  dessiner_rectangle(j);
+  effacer_dessin();
+  return 0;
+}
