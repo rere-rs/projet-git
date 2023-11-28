@@ -22,11 +22,16 @@ void drawCircle(x, y, radius){
   int radius = 5;
 }
 
+void palette_couleur(couleur){
+  couleur
+}
+
 int main(void) {
   dessiner_carre(i)
   dessiner_droite(k);
   dessiner_rectangle(j);
   drawCircle(x, y radius);
+  palette_couleur(couleur);
   effacer_dessin();
   return 0;
 }
