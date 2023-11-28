@@ -16,10 +16,17 @@ void dessiner_droite(int k) {
   int k = 3;
 }
 
+void palette_de_couleur(couleur) {
+  rouge
+  bleu
+  vert
+}
+
 int main(void) {
   dessiner_carre(i)
   dessiner_droite(k);
   dessiner_rectangle(j);
   effacer_dessin();
+  palette_de_couleur(couleur);
   return 0;
 }
