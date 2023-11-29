@@ -32,6 +32,7 @@ void palette_couleur(couleur){
   couleur
 }
 
+
 void savegarder(){
   printf("sauvegardé");
 }
