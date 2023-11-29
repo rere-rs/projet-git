@@ -22,6 +22,12 @@ void drawCircle(x, y, radius){
   int radius = 5;
 }
 
+void dessiner_triangle(a, b, c){
+  int a = 2;
+  int b = 2;
+  int c = 5;
+}
+
 void palette_couleur(couleur){
   couleur
 }
@@ -31,6 +37,7 @@ int main(void) {
   dessiner_droite(k);
   dessiner_rectangle(j);
   drawCircle(x, y radius);
+  dessiner_triangle(a, b, c)
   palette_couleur(couleur);
   effacer_dessin();
   return 0;
