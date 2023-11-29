@@ -40,5 +40,8 @@ int main(void) {
   dessiner_triangle(a, b, c)
   palette_couleur(couleur);
   effacer_dessin();
+  
+int main(void) {
+  dessiner_carre(i)
   return 0;
 }
