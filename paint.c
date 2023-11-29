@@ -32,6 +32,10 @@ void palette_couleur(couleur){
   couleur
 }
 
+void zoom() {
+  zoom avant;
+  zoom arrière;
+}
 
 void savegarder(){
   printf("sauvegardé");
@@ -46,5 +50,6 @@ int main(void) {
   palette_couleur(couleur);
   effacer_dessin();
   savegarder();
+  zoom();
   return 0;
 }
