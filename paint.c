@@ -32,6 +32,11 @@ void palette_couleur(couleur){
   couleur
 }
 
+
+void savegarder(){
+  printf("sauvegardé");
+}
+
 int main(void) {
   dessiner_carre(i)
   dessiner_droite(k);
@@ -40,8 +45,6 @@ int main(void) {
   dessiner_triangle(a, b, c)
   palette_couleur(couleur);
   effacer_dessin();
-  
-int main(void) {
-  dessiner_carre(i)
+  savegarder();
   return 0;
 }
